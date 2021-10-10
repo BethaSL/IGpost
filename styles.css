@@ -1,0 +1,57 @@
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+body {
+	background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 400px;
+    background: white;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    padding: 5px;  
+    align-items: center;
+}
+
+header > div {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    align-items: center;
+}
+
+header > div > p {
+    margin: 0%;
+    padding: 5px;
+}
+
+footer{
+    margin: 0%;
+    padding: 5px;
+    align-items: center;
+}
+
+footer > iconos {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+
+footer > iconos > left {
+    width: 100%;
+}
+footer > iconos > right {
+    margin-right: 20px;
+}
